@@ -8,6 +8,8 @@ mod hpf_plugin;
 mod hpf;
 mod lpf_plugin;
 
-use hpf_plugin::HPFPlugin;
+//use hpf_plugin::HPFPlugin;
 
-plugin_main!(HPFPlugin);
+use lpf_plugin::LPFPlugin;
+
+plugin_main!(LPFPlugin);
